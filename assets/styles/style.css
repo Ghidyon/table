@@ -1,0 +1,45 @@
+ol {
+    border: 1px dotted dodgerblue;
+    width: 970px;
+    height: 100px;
+    margin: 0 auto; /* first value signifies top and bottom styling, second value signifies the right and left */
+}
+
+ol > li { /* > selector is used to select every 'li' element having an 'ol' parent */
+    list-style: none;
+    border: 1px solid green;
+    width: 316px;
+    height: 100%;
+    display: inline-block;
+}
+
+ol > li:nth-child(2) { /* Matches the second type of 'li' found */
+    background: pink;
+}
+
+#outline {
+    height: 650px;
+    width: 400px;
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+    /* outline-style: double;
+    outline-color: red;
+    outline-width: medium; */
+    outline-offset: 10px;
+    /* Outline Shorthand property can take any value with no specific order*/
+    outline: medium double pink;
+}
+
+#outline p {
+    color: white;
+    text-align: justify;
+}
+
+#img {
+    vertical-align: middle; /* aligns item placed in the same line with the image */
+}
+/* 
+    Sweet font-families
+    medium Poppins,"Lucida Grande",Verdana,sans-serif
+*/

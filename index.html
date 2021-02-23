@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" sizes="32x32">
+</head>
+
+<body>
+    <!-- To create a table,
+        *   Draft out the number of rows required on the table using <tr> tags
+        *   Then manipulate the columns using <td> tags
+        *   Finally, you can make a box <td> span through another row or column, using "rowspan" or "colspan" attribute respectively.
+    -->
+
+    <h1 align="center" style="margin:100px 0;">Structuring a HTML Table</h1>
+    <table border='1' width=200px height=200px align="center">
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
